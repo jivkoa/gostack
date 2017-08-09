@@ -25,7 +25,8 @@ https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
                 stack = stack.Push("bar")
                 
                 // pop elements from the stack
-                stack, lastEl := stack.Pop() // it returns the slice without the last element and the last elements as well
+                // it returns the slice without the last element and the last elements as well
+                stack, lastEl := stack.Pop()
                 
                 fmt.Println(lastEl)
         }
